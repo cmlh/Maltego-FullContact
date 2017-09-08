@@ -1,0 +1,12 @@
+// https://www.fullcontact.com/developer/docs/location/
+
+machine("cmlh.FullContact.v2.Location", 
+        displayName:"@FullContact Location", 
+        author:"Christian Heinrich",
+        description: "Cities and/or counties sorted in descending order by the population size.") {
+
+    start {
+        run("paterva.v2.FCLocationNormalizer")
+        run("paterva.v2.FCLocationEnrichment")
+    }
+}
