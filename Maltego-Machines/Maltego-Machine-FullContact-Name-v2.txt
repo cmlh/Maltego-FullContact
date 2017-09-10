@@ -1,9 +1,9 @@
 // https://www.fullcontact.com/developer/docs/name/
 
 machine("cmlh.FullContact.v2.Name",
-    displayName:"@FullContact Name",
-    author:"Christian Heinrich",
-    description:"Name prefix, first name, nickname, middle name, last name and suffix as seen in the US population and likelihood the person with the name is male or female.") {
+        displayName:"@FullContact Name",
+        author:"Christian Heinrich",
+        description:"Name prefix, first name, nickname, middle name, last name and suffix as seen in the US population and likelihood the person with the name is male or female.") {
 
     start {
         run("paterva.v2.FCNameNormalizer")
@@ -18,6 +18,7 @@ machine("cmlh.FullContact.v2.Name",
             path{
                 type("maltego.Alias")
                 run("paterva.v2.FCNameDeducerUsername")
+                run("paterva.v2.FCNameStats")
             }
 
         }
