@@ -20,6 +20,6 @@
 		<Website>https://www.fullcontact.com/developer/pricing/</Website>
 	</Pricing>
 	<Inputs> 
-		<!-- Examples... --> 
+		<Input Name="FCAPIKey" Display="Full Contact API Key" Type="string" Optional="false" Auth="true"/>
 	</Inputs> 
 </Seed>
