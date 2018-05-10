@@ -13,7 +13,7 @@
 		<Phone></Phone> 
 	</Provider>
 	<Registration>
-		<Website>https://portal.fullcontact.com/signup</Website>
+		<Website>https://dashboard.fullcontact.com/register</Website>
 	</Registration>
 	<Pricing>
 		<Info></Info>
