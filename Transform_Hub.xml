@@ -17,7 +17,7 @@
 	</Registration>
 	<Pricing>
 		<Info></Info>
-		<Website>https://www.fullcontact.com/developer/pricing/</Website>
+		<Website>https://www.fullcontact.com/pricing-plans/</Website>
 	</Pricing>
 	<Inputs> 
 		<Input Name="FCAPIKey" Display="Full Contact API Key" Type="string" Optional="false" Auth="true"/>
