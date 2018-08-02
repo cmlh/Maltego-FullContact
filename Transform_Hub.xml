@@ -8,6 +8,9 @@
 	</Icon>
 	<Provider>
 		<Name>Christian Heinrich</Name>
+		<!-- Website>https://www.fullcontact.com/what-we-do/fraud-prevention/< -->
+		<!-- Website>https://www.fullcontact.com/what-we-do/identity-resolution/< -->
+		<!-- Website>https://www.fullcontact.com/what-we-do/profile-enrichment/< -->
 		<Website>https://github.com/cmlh/Maltego-FullContact</Website>
 		<Email>christian.heinrich@cmlh.id.au</Email>
 		<Phone></Phone> 
